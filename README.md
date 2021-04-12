@@ -3,4 +3,4 @@ Created by me. Written in p5.js, use the gesture directions to control the snake
 
 ## Play the game [here](https://p5js-game-starter-1.ishkapoor.repl.co/)
 
-*Note*: Allow the camera to record your video live.
+*Note*: Allow the camera to display your video live.

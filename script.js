@@ -1,6 +1,10 @@
 // Directions Model = https://teachablemachine.withgoogle.com/models/MiVegC6qs/
 // Face Recognition Model =  https://teachablemachine.withgoogle.com/models/LkdOPPcSc/
 
+// Pose Detection Model = https://teachablemachine.withgoogle.com/models/9Ehn9mYY7/
+
+// Arrow Detection Moel = https://teachablemachine.withgoogle.com/models/nVndYPUwZ/
+
 // Video
 let video;
 let classifier;
@@ -12,7 +16,7 @@ var food;
 
 // STEP 1: Load the model!
 function preload() {
-	classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/MiVegC6qs/model.json');
+	classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/nVndYPUwZ/model.json');
 }
 
 function setup() {

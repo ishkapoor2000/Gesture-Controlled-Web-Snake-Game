@@ -16,7 +16,9 @@ var food;
 
 // STEP 1: Load the model!
 function preload() {
-	classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/nVndYPUwZ/model.json');
+	classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/nVndYPUwZ/model.json'); // for image classification
+	// classifier = ml5.soundClassifier('/model.json'); // for sound classification
+	// classifier = ml5.poseNet('https://teachablemachine.withgoogle.com/models/nVndYPUwZ/model.json'); // for pose classification
 }
 
 function setup() {
